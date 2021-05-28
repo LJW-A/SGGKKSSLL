@@ -15,4 +15,10 @@ public class controllerTest {
         System.out.println("增加一句话");
         return "12345678";
     }
+
+    @GetMapping("/testB")
+    @ResponseBody
+    public String testB(int i){
+        return "你的ID是"+i;
+    }
 }
