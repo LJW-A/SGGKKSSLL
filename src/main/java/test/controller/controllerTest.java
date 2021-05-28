@@ -11,6 +11,7 @@ public class controllerTest {
     @GetMapping("/testA")
     @ResponseBody
     public String testA(){
+
         return "12345678";
     }
 }
