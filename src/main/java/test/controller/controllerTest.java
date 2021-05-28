@@ -12,6 +12,7 @@ public class controllerTest {
     @ResponseBody
     public String testA(){
 
+        System.out.println("增加一句话");
         return "12345678";
     }
 }
